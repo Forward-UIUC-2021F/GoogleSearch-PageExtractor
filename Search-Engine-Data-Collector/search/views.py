@@ -41,7 +41,7 @@ import requests
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup as Soup
 import bs4
-from .libraries.xgoogle.search import GoogleSearch, SearchError
+from BetterGoogleSearch.search import GoogleSearch, SearchError
 import re
 rf = MLModel()
 current_links = []
